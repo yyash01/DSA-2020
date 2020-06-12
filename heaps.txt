@@ -1,0 +1,15 @@
+A binary heap is a complete binary tree in which every node satisfies the heap property which states that: 
+
+.............................(MAX - HEAP).........................................        
+               1.)If (B) is a child of (A), then key(A) ≥ key(B)
+               2.)The root node has the highest key value in the heap 
+
+.................................................................................
+
+
+
+ That is, if an element is at position i in the array, then its left child is stored at position 2i and its right child at position 2i+1. Conversely, an element at position i has its parent stored at position i/2. 
+
+
+ Algorithm to  make -----(MAX_HEAP)------
+ 
