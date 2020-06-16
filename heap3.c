@@ -140,13 +140,13 @@ int main()
 		printf("Memory error____\n");
 		return -1;
 	}
-	for (i = 13; i > 0; i--) {
+	for (i = 9; i > 0; i--) {
 		insert(heap, i);
 	}
 
 	print(heap);
 	int j = 0;
-	for (i = 13; i > 0; i--) {
+	for (i = 9; i > 0; i--) {
 		sorted[j++] = pop_min(heap);
 		printf("Pop Minima : %d\n", pop_min(heap));
 		print(heap);
